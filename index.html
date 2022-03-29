@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1><b><u>STRING METHOD</u></b></h1>
+    <pre>
+    syn:-
+let mystr='Meghana'
+ const res=mystr.length
+ console.log(res)
+    </pre>
+    <hr>
+    <hr>
+
+    <h2> chaAt</h2>
+    <p>if we wont to find specific character.</p>
+    <pre>
+  syn:- 
+    let mystr='Meghana'
+ const res=mystr.charAt(3)
+ console.log(res)
+</pre>
+    <hr>
+
+    <h2>indexOf</h2>
+    <pre>
+    syn:-     
+ let mystr='Meghana'
+ const res=mystr.indexOf('a')
+ console.log(res)
+</pre>
+
+    <h2>split</h2>
+    <p>1. split used to convert string to an array. <br>
+        2. split returns the new array, <br>
+        3. And dose not change the original array.
+    </p>
+    <pre> Syn:- 
+     let mystr='Meghana'
+const res=mystr.split('')
+console.log(res)
+</pre>
+    <hr>
+    <h2>reverse</h2>
+    <p>we need to use split and join.</p>
+    <pre>syn:- 
+ let mystr='Meghana'
+ const res=mystr.split('').reverse().join('');
+console.log(res)
+ </pre>
+    <hr>
+
+    <h2>trim</h2>
+    <p>is used to removed wite spaces</p>
+    <pre> syn:-
+    let mystr='Me    gh        ana'
+     console.log(mystr.length)
+     const res=mystr.trim()
+     console.log(res)
+     console.log(res.length)</pre>
+
+    <hr>
+
+    <h2>slice</h2>
+    <p>use to extract data</p>
+    <pre>
+    syn:- 
+     let mystr=['Meghana','hello','hii','good']
+ const res=mystr.slice(1,8)
+ console.log(res)
+</pre>
+    <hr>
+
+    <h2>splice </h2>
+    <p>exact and add element and it will modify.(last is counted)</p>
+    <pre>
+    syn:- 
+     let mystr=['Meghana','hello','hii','good']
+ const res=mystr.splice(1,3)
+ const res=mystr.splice(1,3,'ddddddddddddd')
+console.log(res)
+ console.log(mystr)
+</pre>
+    <hr>
+
+    <h2>concatination</h2>
+    <pre>
+    syn:-
+    let mystr='Meghana'
+     let mystr1='hello'
+     const res=mystr.concat(mystr1)
+     console.log(res)</pre>
+
+    <hr>
+    <h2>replace</h2>
+    <pre>
+    syn:-
+     let mystr='Welcome'
+    const res=mystr.replace('Welcome','goodby')
+     console.log(res)
+</pre>
+    <hr>
+
+    <h2>replaceAll</h2>
+    <pre>syn:- 
+    
+ let mystr='Meghana is studend, is in amravati,is in maharashtra'
+ const res=mystr.replaceAll('is','was')
+ console.log(res)
+</pre>
+    <hr>
+
+    <h2>lowerrecase</h2>
+    <pre>
+    syn:- 
+    let mystr='MEGHANA'
+ const res=mystr.toLowerCase()
+ console.log(res)
+</pre>
+    <hr>
+
+    <h2>uppercase</h2>
+    <pre>
+    syn:- 
+    let mystr='MEGHANA'
+    const res=mystr.toUpperCase()
+    console.log(res)
+</pre>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
